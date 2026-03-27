@@ -1,0 +1,57 @@
+@tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+.primary-color {
+  color : #27b294;
+}
+
+.secondary-color {
+  color : #4e395f;
+}
+
+.text-secondary-color {
+  color : #ea676b;
+}
+
+.bg-primary-color {
+  background-color : #27b294;
+}
+
+.bg-secondary-color {
+  background-color : #ea676b;
+}
+.bg-tertiary-color {
+  background-color: #4e395f;
+}
+
+.border-primary-color {
+  border-color : #27b294;
+}
+
+.border-secondary-color {
+  border-color : #ea676b;
+}
+
+.bg-tetrary-color {
+  background-color : #1e888d;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
